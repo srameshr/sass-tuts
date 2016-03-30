@@ -1,8 +1,36 @@
 // Button Values
 
 .mcb-button {
+
+
+  // Button variables
+  $button-color: white;
+
+  // Button medium
+  $button-medium-font: 1em;
+  $button-medium-height: 1.876em;
+  $button-medium-padding: 0 12px;
+  $button-medium-margin: 10px;
+
+
+  font-size: $button-medium-font;
+  min-height: $button-medium-height;
+  padding: $button-medium-padding;
+  margin: $button-medium-margin;
+
+
+  //@include button-style($primary, $primary-border, $primary-active, $primary-active-border, $button-color);
   font-family: open-sans-regular;
+  border-radius: 0;
+
   &.primary{
-    background-color: red;
+    @include button-style($primary, $primary-border, $primary-active, $primary-active-border, $button-color);
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+
+  &.secondary {
+    @include button-outline($primary-active);
+    font-weight: bold;
   }
 }

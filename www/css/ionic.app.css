@@ -9733,11 +9733,35 @@ a.button {
 
 @font-face {
   font-family: open-sans-regular;
-  url: ../fonts/OpenSans-Regular.ttf format("truetype");
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 .mcb-button {
-  font-family: open-sans-regular; }
+  font-size: 1em;
+  min-height: 1.876em;
+  padding: 0 12px;
+  margin: 10px;
+  font-family: open-sans-regular;
+  border-radius: 0; }
   .mcb-button.primary {
-    background-color: red; }
+    border-color: transparent;
+    background-color: #1A5872;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold; }
+    .mcb-button.primary:hover {
+      color: white;
+      text-decoration: none; }
+    .mcb-button.primary.active, .mcb-button.primary.activated {
+      background-color: #18759A; }
+  .mcb-button.secondary {
+    font-weight: bold; }
+    .mcb-button.secondary.button-outline {
+      border-color: #18759A;
+      background: transparent;
+      color: #18759A; }
+      .mcb-button.secondary.button-outline.active, .mcb-button.secondary.button-outline.activated {
+        background-color: #18759A;
+        box-shadow: none;
+        color: #fff; }
