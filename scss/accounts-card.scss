@@ -1,0 +1,41 @@
+.mcb-accounts-card {
+  // Variables
+  $accounts-card-padding: 24px 0;
+  $accounts-card-bottom-border: 1px solid #B5E9FF;
+  $accounts-card-heading-font-size: 1.063em;
+
+  // Sub heading variables
+  $sub-heading-font-size: 1em;
+
+  border-bottom: $accounts-card-bottom-border;
+
+  & h3 {
+    color: $primary-active;
+    margin-bottom: 0;
+    font: {
+      family: open-sans-regular;
+      size: $accounts-card-heading-font-size;
+    }
+  }
+
+  & h5 {
+    color: $sub-headings-color;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font: {
+      size: $sub-heading-font-size;
+      family: open-sans-regular;
+    }
+  }
+
+
+  & .card-arrow-icon {
+    & i {
+      color: $sub-headings-color;
+    }
+    @include display-flex;
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(center);
+  }
+}

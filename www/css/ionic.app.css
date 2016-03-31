@@ -9731,6 +9731,18 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+.no-padding {
+  padding: 0; }
+
+.col-95 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 95%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 95%;
+  -ms-flex: 0 0 95%;
+  flex: 0 0 95%;
+  max-width: 95%; }
+
 @font-face {
   font-family: open-sans-regular;
   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
@@ -9738,36 +9750,75 @@ a.button {
   font-style: normal; }
 
 .mcb-button {
+  font-family: open-sans-regular;
+  border-radius: 0;
   font-size: 1em;
   min-height: 1.876em;
   padding: 0 12px;
-  margin: 10px;
-  font-family: open-sans-regular;
-  border-radius: 0; }
+  margin: 10px; }
   .mcb-button.primary {
     border-color: transparent;
     background-color: #1A5872;
     color: white;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: bold; }
     .mcb-button.primary:hover {
       color: white;
       text-decoration: none; }
     .mcb-button.primary.active, .mcb-button.primary.activated {
-      background-color: #187399; }
+      background-color: #18759a; }
   .mcb-button.secondary {
     font-weight: bold; }
     .mcb-button.secondary.button-outline {
-      border-color: #187399;
+      border-color: #18759a;
       background: transparent;
-      color: #187399; }
+      color: #18759a; }
       .mcb-button.secondary.button-outline.active, .mcb-button.secondary.button-outline.activated {
-        background-color: #187399;
+        background-color: #18759a;
         box-shadow: none;
         color: #fff; }
 
 .mcb-links {
-  color: #187399;
+  color: #18759a;
   font-weight: bold;
   font-size: 0.813em;
   text-decoration: none; }
+
+.mcb-accounts-card {
+  border-bottom: 1px solid #B5E9FF; }
+  .mcb-accounts-card h3 {
+    color: #18759a;
+    margin-bottom: 0;
+    font-family: open-sans-regular;
+    font-size: 1.063em; }
+  .mcb-accounts-card h5 {
+    color: #5b5c5d;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-family: open-sans-regular; }
+  .mcb-accounts-card .card-arrow-icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; }
+    .mcb-accounts-card .card-arrow-icon i {
+      color: #5b5c5d; }
