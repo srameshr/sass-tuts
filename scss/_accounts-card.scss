@@ -7,7 +7,14 @@
   // Sub heading variables
   $sub-heading-font-size: 1em;
 
-  border-bottom: $accounts-card-bottom-border;
+  & > .row:nth-child(1) {
+    border-bottom: $accounts-card-bottom-border;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    width: auto;
+  }
 
   & h3 {
     color: $primary-active;

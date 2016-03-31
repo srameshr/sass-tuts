@@ -2,6 +2,11 @@
   padding: 0
 }
 
+.no-horizontal-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .col-95 {
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 95%;
