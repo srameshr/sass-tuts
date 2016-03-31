@@ -9777,6 +9777,11 @@ a.button {
         background-color: #18759a;
         box-shadow: none;
         color: #fff; }
+  .mcb-button.button-small {
+    font-size: 0.8em;
+    min-height: 1em;
+    padding: 0 12px;
+    margin: 5px; }
 
 .mcb-links {
   color: #18759a;
