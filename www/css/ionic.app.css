@@ -9858,7 +9858,7 @@ a.button {
   padding: 0;
   color: #aaa; }
   .mcb-input + .mcb-input {
-    margin-top: 48px; }
+    margin-top: 20px; }
   .mcb-input span.input-label {
     color: #5b5c5d;
     font-size: #808080;
