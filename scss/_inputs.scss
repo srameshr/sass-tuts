@@ -4,11 +4,13 @@
   $input-font-size: 1.063em;
   $input-font-color: #aaa;
 
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  padding: 0;
-  color: $input-font-color;
+  & label{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 0;
+    color: $input-font-color;
+  }
 
   & + & {
     margin-top: 20px;

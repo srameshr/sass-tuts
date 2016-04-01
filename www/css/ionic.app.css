@@ -9851,18 +9851,21 @@ a.button {
 .mcb-accounts-card:active, .mcb-accounts-card.activated {
   background-color: #F8F5F5; }
 
-.mcb-input {
+.mcb-input label {
   border-top: none;
   border-left: none;
   border-right: none;
   padding: 0;
   color: #aaa; }
-  .mcb-input + .mcb-input {
-    margin-top: 20px; }
-  .mcb-input span.input-label {
-    color: #5b5c5d;
-    font-size: #808080;
-    font-family: open-sans-bold; }
-  .mcb-input input {
-    font-size: 1.063em;
-    font-family: open-sans-regular; }
+
+.mcb-input + .mcb-input {
+  margin-top: 20px; }
+
+.mcb-input span.input-label {
+  color: #5b5c5d;
+  font-size: #808080;
+  font-family: open-sans-bold; }
+
+.mcb-input input {
+  font-size: 1.063em;
+  font-family: open-sans-regular; }
