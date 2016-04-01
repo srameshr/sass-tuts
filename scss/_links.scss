@@ -3,4 +3,9 @@
   font-weight: $links-font-weight;
   font-size: $links-font-size;
   text-decoration: none;
+
+  &:active,
+  &.activated{
+   color: $primary-active;
+  }
 }

@@ -45,4 +45,9 @@
     @include align-items(center);
     @include justify-content(center);
   }
+
+  &:active,
+  &.activated {
+    background-color: $card-active-color;
+  }
 }

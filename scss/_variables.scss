@@ -1,4 +1,5 @@
 $font-family-open-sans: "../fonts/OpenSans-Regular.ttf" !default;
+$font-family-open-sans-bold: "../fonts/OpenSans-Bold.ttf" !default;
 
 // Colors
 $primary: #1A5872;
@@ -8,6 +9,11 @@ $primary-active: #18759a;
 $primary-active-border: #18759a;
 
 $sub-headings-color: #5b5c5d;
+
+$input-label-color: #808080;
+$input-label-size: 1.250em;
+
+$card-active-color: #F8F5F5;
 
 //links
 $links-font-size: 0.813em;

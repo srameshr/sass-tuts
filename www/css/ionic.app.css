@@ -9753,6 +9753,12 @@ a.button {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: open-sans-bold;
+  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 .mcb-button {
   font-family: open-sans-regular;
   border-radius: 0;
@@ -9792,6 +9798,8 @@ a.button {
   font-weight: bold;
   font-size: 0.813em;
   text-decoration: none; }
+  .mcb-links:active, .mcb-links.activated {
+    color: #18759a; }
 
 .mcb-accounts-card > .row:nth-child(1) {
   border-bottom: 1px solid #B5E9FF;
@@ -9839,3 +9847,22 @@ a.button {
   justify-content: center; }
   .mcb-accounts-card .card-arrow-icon i {
     color: #5b5c5d; }
+
+.mcb-accounts-card:active, .mcb-accounts-card.activated {
+  background-color: #F8F5F5; }
+
+.mcb-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  color: #aaa; }
+  .mcb-input + .mcb-input {
+    margin-top: 48px; }
+  .mcb-input span.input-label {
+    color: #5b5c5d;
+    font-size: #808080;
+    font-family: open-sans-bold; }
+  .mcb-input input {
+    font-size: 1.063em;
+    font-family: open-sans-regular; }

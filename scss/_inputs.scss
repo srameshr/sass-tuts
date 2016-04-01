@@ -1,0 +1,31 @@
+.mcb-input {
+
+  // Variables
+  $input-font-size: 1.063em;
+  $input-font-color: #aaa;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0;
+  color: $input-font-color;
+
+  & + & {
+    margin-top: 48px;
+  }
+
+  & span.input-label{
+    color: $sub-headings-color;
+    font-size: $input-label-color;
+    font-family: open-sans-bold;
+  }
+
+  & input {
+    font:{
+      size: $input-font-size;
+      family: open-sans-regular;
+    }
+    //color: $input-font-color;
+
+  }
+}
