@@ -24,9 +24,18 @@ angular.module('starter', ['ionic'])
 
 
    var confirmPopup = $ionicPopup.confirm({
-     title: 'Consume Ice Cream',
      template: 'Are you sure you want to eat this ice cream?',
-     cssClass: 'popup-confirm'
+     cssClass: 'popup-confirm',
+     buttons:[
+        {
+          type: 'button-clear',
+          text: 'OK'
+        },
+        {
+          type: 'button-clear',
+          text: 'CANCEL'
+        }
+     ]
    });
 
    confirmPopup.then(function(res) {

@@ -1,5 +1,41 @@
 .popup-confirm {
-  font-size: ;
-  color: #18759a;
-  font-family: open-sans-regular;
+
+
+  // Variables
+  $popup-confirm-body-padding: 24px 16px 20px 16px;
+  $popup-confirm-font-color: #5b5c5d;
+  $popup-confirm-buttons-border: 1px solid #D2D2D2;
+  $popup-confirm-buttons-color: #18759a;
+  font-family: open-sans-bold;
+  font-size: 1em;
+
+
+  & .popup-head {
+    padding: 0;
+    border-bottom: none;
+  }
+
+  & .popup-body {
+    padding: $popup-confirm-body-padding;
+    color: $popup-confirm-font-color;
+  }
+
+  & .popup-buttons {
+    border-top: $popup-confirm-buttons-border;
+    padding: 0;
+    min-height: 0;
+
+  }
+
+  & .popup-buttons button.button {
+    color: $popup-confirm-buttons-color;
+    font-family: open-sans-regular;
+  }
+
+  & .popup-buttons .button:last-child {
+    margin-right: 0px;
+    border-left: 1px solid #D2D2D2;
+    font-family: open-sans-bold;
+    text-transform: uppercase;
+  }
 }
