@@ -9916,3 +9916,27 @@ a.mcb-menu-item {
     border-left: 1px solid #D2D2D2;
     font-family: open-sans-bold;
     text-transform: uppercase; }
+
+.alert-popup {
+  font-family: open-sans-bold;
+  font-size: 1em; }
+  .alert-popup .popup-head {
+    background-color: #FAFAFA;
+    color: black;
+    font-family: open-sans-bold; }
+  .alert-popup .popup-body p, .alert-popup .popup-body {
+    font-family: open-sans-regular;
+    color: #5b5c5d;
+    background: white; }
+  .alert-popup .popup-buttons {
+    border-top: 1px solid #D2D2D2;
+    padding: 0;
+    min-height: 0; }
+  .alert-popup .popup-buttons button.button {
+    color: #18759a;
+    font-family: open-sans-regular; }
+  .alert-popup .popup-buttons .button:last-child {
+    margin-right: 0px;
+    border-left: 1px solid #D2D2D2;
+    font-family: open-sans-bold;
+    text-transform: uppercase; }
