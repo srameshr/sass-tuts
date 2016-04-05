@@ -11,7 +11,7 @@
     border-right: none;
     padding: 0;
     color: $input-font-color;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddd !important;
   }
 
   & + & {
@@ -36,10 +36,13 @@
   & input[type="date"] {
     display: inline;
     width: $mcb-date-input-width;
+
   }
 
   & span.input-icon{
     float: right;
     padding-right: 10px;
+    color: $primary ;
+    font-size: 1.2em;
   }
 }
