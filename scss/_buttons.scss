@@ -30,7 +30,7 @@
   font-size: $button-medium-font;
   min-height: $button-medium-height;
   padding: $button-medium-padding;
-  margin: $button-medium-margin;
+  margin-top: $button-medium-margin;
 
 
   // Button small
@@ -38,11 +38,10 @@
     $button-small-font: 0.8em;
     $button-small-height: 1em;
     $button-small-padding: 0 12px;
-    $button-small-margin: 5px;
 
     font-size: $button-small-font;
     min-height: $button-small-height;
     padding: $button-small-padding;
-    margin: $button-small-margin;
+
   }
 }
