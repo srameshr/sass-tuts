@@ -1,0 +1,20 @@
+a.mcb-menu-item {
+
+  // Variables
+  $menu-font-size: 1.063em;
+  $menu-item-padding: 14px 0 14px 54px;
+
+  border: none;
+  color: $primary;
+  padding: $menu-item-padding;
+
+  @include menu-item-style($primary, white);
+  font: {
+    size: $menu-font-size;
+    family: open-sans-regular;
+  }
+
+  & i {
+    color: $primary;
+  }
+}

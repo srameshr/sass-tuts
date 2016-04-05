@@ -9869,3 +9869,18 @@ a.button {
 .mcb-input input {
   font-size: 1.063em;
   font-family: open-sans-regular; }
+
+a.mcb-menu-item {
+  border: none;
+  color: #1A5872;
+  padding: 14px 0 14px 54px;
+  font-size: 1.063em;
+  font-family: open-sans-regular; }
+  a.mcb-menu-item.active, a.mcb-menu-item.activated {
+    background-color: #1A5872;
+    color: white;
+    border-color: #1A5872; }
+    a.mcb-menu-item.active i, a.mcb-menu-item.activated i {
+      color: white; }
+  a.mcb-menu-item i {
+    color: #1A5872; }

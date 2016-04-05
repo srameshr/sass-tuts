@@ -16,6 +16,19 @@
   }
 }
 
+@mixin menu-item-style($bg-color, $text-color) {
+  &.active,
+  &.activated {
+    background-color: $bg-color;
+    color: $text-color;
+    border-color: $bg-color;
+
+    & i {
+      color: $text-color;
+    }
+  }
+}
+
 
 @mixin button-outline($color, $text-color:"") {
   &.button-outline {
