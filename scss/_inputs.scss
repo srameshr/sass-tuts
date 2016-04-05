@@ -3,6 +3,7 @@
   // Variables
   $input-font-size: 1.063em;
   $input-font-color: #aaa;
+  $mcb-date-input-width: 75%;
 
   & label{
     border-top: none;
@@ -30,5 +31,15 @@
     }
     //color: $input-font-color;
 
+  }
+
+  & input[type="date"] {
+    display: inline;
+    width: $mcb-date-input-width;
+  }
+
+  & span.input-icon{
+    float: right;
+    padding-right: 10px;
   }
 }
