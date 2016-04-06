@@ -1,0 +1,15 @@
+.app-bill-tabs {
+  font-family: open-sans-bold;
+  & > div.tabs {
+   @include top-tabs($top-tab-bg-color, $top-tab-height, $top-tab-width, $top-tab-top, $top-tab-bg-color, $top-tab-item-padding, $font-weight-bold, $top-tab-font-size, $top-tab-font-color);
+  }
+  & .tabs {
+    & > .tab-item.tab-item-active, .tab-item.active {
+        background-color: $top-tab-item-activated;
+        border-bottom: 2px solid $top-tab-border;
+        & > span.tab-title {
+            color: $top-tab-item-activated-color;
+        }
+    }
+  }
+}

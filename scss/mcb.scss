@@ -20,7 +20,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import
-"www/lib/ionic/scss/ionic",
 "utils",
 "variables",
 "mixins",
@@ -30,5 +29,7 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 "accounts-card",
 "inputs",
 "menu-items",
-"popups"
+"popups",
+"select",
+"toptabs"
 

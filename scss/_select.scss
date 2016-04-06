@@ -1,0 +1,33 @@
+.mcb-select {
+
+   & label {
+      padding-left: 1px;
+      padding-right: 1px;
+   }
+
+   & label span.input-label {
+      display: block;
+   }
+
+   & select {
+      -webkit-appearance: none;
+      border: none;
+      background: #ecf7fd;
+      padding: 12px 6px;
+      box-shadow: 0px 1px 3px 0px #969696;
+      border-radius: 1px;
+      width: 100%;
+      font-family: open-sans-regular;
+   }
+
+
+   & i.icon {
+      position: absolute;
+      right: 1em;
+      margin-top: 0.3em;
+      font-size: 1.2em;
+      color: $primary;
+
+   }
+
+}

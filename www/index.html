@@ -96,6 +96,41 @@
           </div>
         </div>
 
+<!-- <div>
+  <select class="mcb-select">
+    <option>Here is the first option my<br /> lady lovealskdfja lkfja la s</option>
+    <option>The second option</option>
+    <option>The third option</option>
+  </select>
+  <i class="icon ion-ios-arrow-down"></i>
+  </div> -->
+  <div class="mcb-input">
+  <label class="">Hello world</label>
+    <div class="">
+       <select class="ion-input-select selectboxlabel" name="PayeeFromSelect"
+               ng-model="vm.fromAccountObj"
+               ng-options="fromacc.fudingAccountType for fromacc in vm.payeeListObject.FundingAccountDetail"
+               required>
+           <option value="">{{vm.billPayLables.fundtransfer_Lbl_SelectAccount}}
+           </option>
+       </select>
+       <i class="icon ion-ios-arrow-down select-ui-icon alert-select-arrow-image"></i>
+    </div>
+    </div>
+
+
+    <div class="mcb-input mcb-select">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">First Name</span>
+         <select>
+             <option value="">Hoohahha</option>
+         </select>
+       <i class="icon ion-ios-arrow-down"></i>
+      </label>
+      </div>
+
+
+
       </ion-content>
     </ion-pane>
   </body>

@@ -175,3 +175,30 @@
   -moz-justify-content: $value;
   justify-content: $value;
 }
+
+// Rajesh
+@mixin top-tabs($bg-color, $tab-height, $tab-width, $tab-top, $tab-item-color, $tab-item-padding, $title-font-weight, $title-font-size, $tab-font-color) {
+   background-color: $bg-color;
+     height: $tab-height;
+     width: $tab-width;
+     top: $tab-top;
+     & > a.tab-item {
+       background-color: $tab-item-color;
+     margin-top: 1px;
+     opacity: 1;
+     filter: alpha(opacity=100);
+     padding-left: $tab-item-padding;
+     padding-right: $tab-item-padding;
+     overflow: hidden;
+     border: 1px solid $tab-font-color;
+     & > span.tab-title {
+       color: $tab-font-color;
+       font-weight: $title-font-weight;
+       display: block;
+       margin-top: -6px;
+       font-size: $title-font-size;
+       overflow: hidden;
+       text-overflow: ellipsis;
+    }
+  }
+}
