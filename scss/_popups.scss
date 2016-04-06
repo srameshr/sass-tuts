@@ -31,6 +31,10 @@
 
   }
 
+  & .popup-buttons .button.active, & .popup-buttons .button.activated {
+    background-color: $activated-color;
+  }
+
   & .popup-buttons button.button {
     color: $popup-confirm-buttons-color;
     font-family: open-sans-regular;

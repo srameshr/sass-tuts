@@ -194,6 +194,8 @@ a.mcb-menu-item {
     border-top: 1px solid #D2D2D2;
     padding: 0;
     min-height: 0; }
+  .popup-confirm .popup-buttons .button.active, .popup-confirm .popup-buttons .button.activated {
+    background-color: #ecf7fd; }
   .popup-confirm .popup-buttons button.button {
     color: #18759a;
     font-family: open-sans-regular;
@@ -228,3 +230,33 @@ a.mcb-menu-item {
   margin-top: 0.3em;
   font-size: 1.2em;
   color: #1A5872; }
+
+.app-bill-tabs {
+  font-family: open-sans-bold; }
+  .app-bill-tabs > div.tabs {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    top: 45px; }
+    .app-bill-tabs > div.tabs > a.tab-item {
+      background-color: white;
+      margin-top: 1px;
+      opacity: 1;
+      filter: alpha(opacity=100);
+      padding-left: 5px;
+      padding-right: 5px;
+      overflow: hidden;
+      border: 1px solid #92B4C6; }
+      .app-bill-tabs > div.tabs > a.tab-item > span.tab-title {
+        color: #92B4C6;
+        font-weight: bold;
+        display: block;
+        margin-top: -6px;
+        font-size: 1em;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .app-bill-tabs .tabs > .tab-item.tab-item-active, .app-bill-tabs .tabs .tab-item.active {
+    background-color: #f8f5f5;
+    border-bottom: 3px solid #1A5872; }
+    .app-bill-tabs .tabs > .tab-item.tab-item-active > span.tab-title, .app-bill-tabs .tabs .tab-item.active > span.tab-title {
+      color: #18759a; }

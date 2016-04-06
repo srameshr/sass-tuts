@@ -6,7 +6,7 @@
   & .tabs {
     & > .tab-item.tab-item-active, .tab-item.active {
         background-color: $top-tab-item-activated;
-        border-bottom: 2px solid $top-tab-border;
+        border-bottom: 3px solid $primary;
         & > span.tab-title {
             color: $top-tab-item-activated-color;
         }
